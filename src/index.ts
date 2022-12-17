@@ -298,24 +298,6 @@ export = {
     // eslint-plugin-react-hooks
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-
-    // typescript eslint
-    '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
-    '@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: true }],
-    '@typescript-eslint/no-var-requires': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { vars: 'all', args: 'after-used' }],
-    '@typescript-eslint/indent': ['error', 2],
-    '@typescript-eslint/member-delimiter-style': ['error', {
-      multiline: {
-        delimiter: 'semi',
-        requireLast: true,
-      },
-      singleline: {
-        delimiter: 'comma',
-        requireLast: false,
-      },
-    }],
   },
 
   /* 覆盖配置 */
@@ -324,7 +306,26 @@ export = {
       files: ['*.ts', '*.tsx', '*.vue'],
       rules: {
         'no-undef': 'off',
+        'no-redeclare': 'off',
         'no-use-before-define': 'off',
+
+        // typescript eslint
+        '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
+        '@typescript-eslint/no-explicit-any': ['error', { ignoreRestArgs: true }],
+        '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/no-unused-vars': ['error', { vars: 'all', args: 'after-used' }],
+        '@typescript-eslint/indent': ['error', 2],
+        '@typescript-eslint/member-delimiter-style': ['error', {
+          multiline: {
+            delimiter: 'semi',
+            requireLast: true,
+          },
+          singleline: {
+            delimiter: 'comma',
+            requireLast: false,
+          },
+        }],
       },
     },
   ],
