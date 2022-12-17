@@ -1,6 +1,6 @@
 {
   "name": "@ainc/eslint-config-recommended",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ESLint config recommended!",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -22,9 +22,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "@typescript-eslint/parser": "^5.43.0",
-    "eslint": "^8.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.30.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
