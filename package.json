@@ -1,6 +1,6 @@
 {
   "name": "@ainc/eslint-config-recommended",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint config recommended!",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
