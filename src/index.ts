@@ -90,6 +90,13 @@ export = {
     'plugin:react/recommended',
   ],
 
+  /* 忽略文件 */
+  ignorePatterns: [
+    "dist",
+    "esm",
+    "**/*.min.js",
+  ],
+
   /* 规则 */
   rules: {
 
